@@ -232,11 +232,9 @@ section:nth-of-type(2) p:first-of-type {
 
 /* JAS en VEST */
 article:first-of-type{
-
   display:grid;
   width: 100vw;
   background:#303030;
-
 }
 
 article:first-of-type img{
@@ -256,6 +254,79 @@ article:first-of-type a:hover img{
   opacity: 0.5;
   cursor: pointer;
 }
+
+/* Carhartt Magazine */
+article:nth-of-type(2) {
+  display: grid;
+  width: 100vw;
+  
+}
+
+article:nth-of-type(2) img{
+  width: 30vw;
+  background:#303030;
+}
+
+article:nth-of-type(2) a:hover img{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+article:nth-of-type(2) a:hover{
+  cursor: pointer;
+}
+
+article:nth-of-type(2) h2{
+  font-family:'helvetica';
+  font-size: 100%;
+}
+
+
+@media (min-width: 50em) {
+  article:nth-of-type(2){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  article:nth-of-type(2) img{
+    margin: 5em 5em 0 5em ;
+  }
+  
+  article:nth-of-type(2) h2{
+    margin-left: 5em;
+    margin-top: .5em;
+  }
+}
+
+@media (min-width: 70em){
+  article:nth-of-type(2){
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  article:nth-of-type(2) img{
+    margin: 8em 8em 0 8em ;
+  }
+  article:nth-of-type(2) h2{
+    margin-left: 8em;
+    margin-top: 1em;
+  }
+}
+
+/* RADIO */
+section:nth-of-type(2){
+  display:flex;
+  justify-content: center;
+  width: 100vw;
+  background:#303030;
+}
+
+section:nth-of-type(2) img{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
 
 .button {
   width: 5em;
