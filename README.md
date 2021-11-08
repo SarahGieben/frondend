@@ -71,7 +71,7 @@ Daarna was ik al een beetje begonnen met de opzet van het menu.
 <details>
 <summary>
 In week 2 heb ik verder aan het menu gewerkt. Ik heb ook afbeeldingen van de pagina gehaald die ik wilde
-gaan gebruiken, en ik heb schetsen gemaakt van hoe ik de indeling van de site wilde.
+gaan gebruiken, en ik heb schetsen gemaakt van hoe ik de indeling van de site wilde hebben.
 </summary>
 
 ### Stand van zaken
@@ -79,7 +79,7 @@ Ik vond de eerste twee weken erg stroef gaan. Ik moet heel erg inkomen in het co
 
 
 ### Verslag van meeting
-Ik moet nog meer code schrijven
+Ik moet meer code gaan oefenen.
 
 </details>
 
