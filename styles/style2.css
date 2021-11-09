@@ -228,7 +228,7 @@ form .form-row .textarea{
     height: 70px;
 }
 
-.input-data input,
+.input-data input[type=text], select,
 .textarea textarea{
     display: block;
     width: 100%;
@@ -238,8 +238,8 @@ form .form-row .textarea{
     border-bottom: 2px solid rgba(0,0,0, 0.12);
 }
 
-.input-data input:focus ~ label, .textarea textarea:focus ~ label,
-.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+.input-data input[type=text], select:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input[type=text], select:valid ~ label, .textarea textarea:valid ~ label{
     transform: translateY(-20px);
     font-size: 14px;
     color: #5F7995;
@@ -282,8 +282,8 @@ form .form-row .textarea{
     transition: transform 0.3s ease;
 }
 
-.input-data input:focus ~ .underline:before,
-.input-data input:valid ~ .underline:before,
+.input-data input[type=text], select:focus ~ .underline:before,
+.input-data input[type=text], select:valid ~ .underline:before,
 .textarea textarea:focus ~ .underline:before,
 .textarea textarea:valid ~ .underline:before{
     transform: scale(1);
@@ -304,11 +304,8 @@ form .form-row .textarea{
     transition: all 0.4s;
 }
 
-.submit-btn .input-data:hover span{
-    left: 0;
-}
 
-.submit-btn .input-data input{
+.submit-btn .input-data input[type=submit], select{
     background: none;
     border: none;
     color: #fff;

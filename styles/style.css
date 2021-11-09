@@ -51,7 +51,6 @@ header {
 header a {
   color: var(--font-color);
   text-decoration: none;
-  
 }
 
 
@@ -234,7 +233,7 @@ section:nth-of-type(2) p {
   color: var(--background-color);
 }
 
-section:nth-of-type(2) p:first-of-type {
+section:nth-of-type(2) h1 {
   text-transform: uppercase;
   position: absolute;
   top: 25%;
